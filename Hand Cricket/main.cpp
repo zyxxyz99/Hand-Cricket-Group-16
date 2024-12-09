@@ -1719,8 +1719,8 @@ int KpUp(int dif,int sng)
 	
 	if(sng==1)
 	{
-		target=rand()%100;
-		target+=300;
+		target=rand()%50;
+		target+=50;
 	}
 	int page=0,end=0;
 		if(dif==1)
