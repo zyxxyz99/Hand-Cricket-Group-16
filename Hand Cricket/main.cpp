@@ -1722,7 +1722,7 @@ int KpUp(int dif,int sng)
 		target=rand()%50;
 		target+=50;
 	}
-	int page=0,end=0;
+	int end=0;
 		if(dif==1)
 	{
 		b1=-1;
