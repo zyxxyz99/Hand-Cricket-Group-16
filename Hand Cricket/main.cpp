@@ -1766,8 +1766,11 @@ int KpUp(int dif,int sng)
 	
 		sprintf(xy,"Score: %d",score);
 		outtextxy(50,50,xy);
+		if(sng==1)
+		{
 		sprintf(yz,"Target: %d",target);
 		outtextxy(500,50,yz);
+		}
 	
 			if(GetAsyncKeyState(VK_ESCAPE))
 			{
@@ -1896,7 +1899,6 @@ int KpUp(int dif,int sng)
 }	
 		delay(40);
 		time++;
-		page=1-page;
 	}
 	cleardevice();
 	
